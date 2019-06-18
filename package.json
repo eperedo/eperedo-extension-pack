@@ -1,36 +1,49 @@
 {
-    "name": "eperedo-extension-pack",
-    "displayName": "eperedo-extension-pack",
-    "description": "The most stressfull extension pack for node/vue apps",
-    "version": "0.0.1",
-    "publisher": "eperedo",
-    "engines": {
-        "vscode": "^1.25.0"
-    },
-    "categories": [
-        "Extension Packs"
-    ],
-    "extensionDependencies": [ 
-        "alefragnani.Bookmarks", 
-        "alexdima.copy-relative-path", 
-        "christian-kohler.npm-intellisense", 
-        "christian-kohler.path-intellisense", 
-        "CoenraadS.bracket-pair-colorizer", 
-        "dbaeumer.vscode-eslint", 
-        "eamodio.gitlens", 
-        "esbenp.prettier-vscode", 
-        "kisstkondoros.csstriggers", 
-        "kisstkondoros.vscode-codemetrics", 
-        "mikestead.dotenv", 
-        "octref.vetur", 
-        "sdras.night-owl", 
-        "sdras.vue-vscode-extensionpack", 
-        "sdras.vue-vscode-snippets", 
-        "tombonnike.vscode-status-bar-format-toggle", 
-        "vuetifyjs.vuetify-vscode", 
-        "WallabyJs.quokka-vscode", 
-        "whizkydee.material-palenight-theme", 
-        "wmaurer.vscode-jumpy", 
-        "xabikos.JavaScriptSnippets"
-    ]
+	"name": "eperedo-extension-pack",
+	"displayName": "eperedo-extension-pack",
+	"description": "The most stressfull extension pack for node/vue apps",
+	"version": "1.0.1",
+	"publisher": "eperedo",
+	"engines": {
+		"vscode": "^1.25.0"
+	},
+	"categories": [
+		"Extension Packs"
+	],
+	"extensionDependencies": [
+		"alefragnani.Bookmarks",
+		"alexdima.copy-relative-path",
+		"christian-kohler.npm-intellisense",
+		"christian-kohler.path-intellisense",
+		"CoenraadS.bracket-pair-colorizer",
+		"dbaeumer.vscode-eslint",
+		"eamodio.gitlens",
+		"esbenp.prettier-vscode",
+		"kisstkondoros.csstriggers",
+		"kisstkondoros.vscode-codemetrics",
+		"mikestead.dotenv",
+		"octref.vetur",
+		"sdras.night-owl",
+		"sdras.vue-vscode-extensionpack",
+		"sdras.vue-vscode-snippets",
+		"tombonnike.vscode-status-bar-format-toggle",
+		"vuetifyjs.vuetify-vscode",
+		"WallabyJs.quokka-vscode",
+		"wmaurer.vscode-jumpy",
+		"xabikos.JavaScriptSnippets"
+	],
+	"main": "\"\"",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/eperedo/eperedo-extension-pack.git"
+	},
+	"author": "Eduardo P. Rivero",
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/eperedo/eperedo-extension-pack/issues"
+	},
+	"homepage": "https://github.com/eperedo/eperedo-extension-pack#readme"
 }
